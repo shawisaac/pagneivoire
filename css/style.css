@@ -1,0 +1,51 @@
+/* PagneTradIvoire — feuille de style de départ.
+   Personnalisez librement cette feuille selon votre identité visuelle. */
+:root {
+  --primary-green: #2d6a4f;
+  --dark-green: #1b4332;
+  --accent-gold: #e9c46a;
+  --light-bg: #f8f9fa;
+}
+body { padding-top: 56px; font-family: Arial, sans-serif; }
+.hero-section {
+  min-height: 78vh;
+  background: linear-gradient(90deg, rgba(0,0,0,.78), rgba(0,0,0,.25)),
+              repeating-linear-gradient(45deg, #315c48 0 18px, #b88b3b 18px 36px, #713d3d 36px 54px);
+  background-size: cover;
+}
+.page-banner {
+  background: linear-gradient(110deg, #1b4332, #2d6a4f);
+}
+.stat-card { background: #f8f9fa; border-radius: 12px; }
+.carousel-art { min-height: 360px; display: flex; align-items: end; justify-content: center; }
+.art-one { background-image: url('/assets/img/OIP\ \(16\).webp'); }
+.art-two {background-image: url('/assets/img/OIP\ \(18\).webp') }
+.art-three { background-image: url('/assets/img/OIP\ \(19\).webp') }
+.art-four { background-image: url('/assets/img/OIP\ \(15\).webp') }
+.art-five { background-image: url('/assets/img/télécharger\ \(1\).webp'); }
+.carousel-caption { background: rgba(0,0,0,.55); border-radius: 10px; padding: 1rem; bottom: 2rem; }
+.pattern-img { min-height: 180px; }
+.pattern-north { background-image: url('/assets/img/pagne_tradi\ du\ nord.webp'); }
+.pattern-centre { background-image: url('/assets/img/\/OIP\ \(9\).webp') }
+.pattern-sud { background-image: url(/assets/img/OIP\ \(8\).webp); }
+.pattern-ouest { background-image: url('/assets/img/0337040aad80e991af68e2a6cb576772.jpg'); }
+.pattern-est { background-image: url('/assets/img/OIP\ \(14\).webp') }
+.about-art { min-height: 340px; background-image: url('/assets/img/Capture\ d\'écran\ 2026-11-14\ 085101.png'); }
+.detail-art { min-height: 350px; }
+.card { transition: transform .25s ease, box-shadow .25s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 1rem 2rem rgba(0,0,0,.12); }
+footer a { text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+
+.art-one, .art-two, .art-three, .art-four, .art-five, .pattern-centre, .pattern-sud, .pattern-ouest, .pattern-north, .pattern-est, .about-art {
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+}
+
+@media (max-width: 576px) {
+  .carousel-art { min-height: 260px; }
+  .hero-section { min-height: 70vh; }
+}

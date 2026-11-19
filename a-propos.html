@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PagneTradIvoire, valorisation et catalogue de pagnes traditionnels ivoiriens.">
+  <title>À propos | PagneTradIvoire</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Pagne<span class="text-warning">Trad</span>Ivoire</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="a-propos.html">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Catalogue</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <button class="btn btn-warning fw-semibold" data-bs-toggle="modal" data-bs-target="#devisModal">Demander un devis</button>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="modal fade" id="devisModal" tabindex="-1" aria-labelledby="devisModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="devisModalLabel">Demander un devis</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+      </div>
+      <div class="modal-body">
+        <p>Vous avez un projet ou souhaitez commander des pagnes en quantité ? Contactez notre équipe.</p>
+        <a class="btn btn-success w-100" href="contact.html">Accéder au formulaire de contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+<main class="pt-5">
+<section class="page-banner text-light"><div class="container py-5"><p class="text-warning fw-semibold">QUI SOMMES-NOUS ?</p><h1 class="display-4 fw-bold">À propos de PagneTradIvoire</h1><p class="lead col-lg-8">Une initiative dédiée à la valorisation du patrimoine textile traditionnel ivoirien.</p></div></section>
+<section class="container py-5">
+ <div class="row g-5 align-items-center">
+  <div class="col-lg-6"><div class="about-art rounded-3"></div></div>
+  <div class="col-lg-6"><p class="text-success fw-semibold">NOTRE HISTOIRE</p><h2 class="fw-bold">Préserver, partager et transmettre</h2><p>PagneTradIvoire est un projet de valorisation des pagnes traditionnels de Côte d'Ivoire. À travers ce catalogue, nous souhaitons faire découvrir la richesse des motifs, des techniques et des identités culturelles qui composent notre patrimoine.</p><p>Notre démarche met en lumière les artisans, encourage la transmission des savoir-faire et facilite la découverte des étoffes traditionnelles par tous les publics.</p><a href="services.html" class="btn btn-success">Explorer nos collections</a></div>
+ </div>
+</section>
+<section class="bg-light py-5"><div class="container"><div class="text-center mb-4"><p class="text-success fw-semibold">NOS ENGAGEMENTS</p><h2 class="fw-bold">Ce qui nous anime</h2></div><div class="row g-4"><div class="col-md-4"><article class="p-4 bg-white rounded-3 h-100"><h4>Patrimoine</h4><p class="mb-0">Faire connaître la diversité des traditions textiles ivoiriennes.</p></article></div><div class="col-md-4"><article class="p-4 bg-white rounded-3 h-100"><h4>Artisanat</h4><p class="mb-0">Mettre en valeur le travail et la créativité des artisans.</p></article></div><div class="col-md-4"><article class="p-4 bg-white rounded-3 h-100"><h4>Transmission</h4><p class="mb-0">Encourager les nouvelles générations à découvrir cet héritage.</p></article></div></div></div></section>
+</main>
+<footer class="bg-dark text-light pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row g-4">
+      <section class="col-md-6 col-lg-3">
+        <h5 class="fw-bold">PagneTradIvoire</h5>
+        <p class="text-white-50">La richesse du textile traditionnel ivoirien, valorisée avec passion et authenticité.</p>
+      </section>
+      <section class="col-md-6 col-lg-3">
+        <h5>Liens rapides</h5>
+        <ul class="list-unstyled">
+          <li><a class="link-light" href="index.html">Accueil</a></li>
+          <li><a class="link-light" href="a-propos.html">À propos</a></li>
+          <li><a class="link-light" href="services.html">Catalogue</a></li>
+          <li><a class="link-light" href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section class="col-md-6 col-lg-3">
+        <h5>Newsletter</h5>
+        <p class="text-white-50">Recevez nos nouveautés et actualités.</p>
+        <form class="d-flex" onsubmit="event.preventDefault(); alert('Merci pour votre inscription !');">
+          <input class="form-control me-2" type="email" placeholder="Votre email" aria-label="Votre email" required>
+          <button class="btn btn-warning" type="submit">OK</button>
+        </form>
+      </section>
+      <section class="col-md-6 col-lg-3">
+        <h5>Suivez-nous</h5>
+        <p class="text-white-50">Retrouvez nos collections et actualités sur nos réseaux sociaux.</p>
+        <a class="link-light me-3" href="#" aria-label="Facebook">Facebook</a>
+        <a class="link-light" href="#" aria-label="Instagram">Instagram</a>
+      </section>
+    </div>
+    <hr class="border-secondary mt-4">
+    <p class="text-center text-white-50 mb-0">&copy; <span class="current-year"></span> PagneTradIvoire — Tous droits réservés.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
